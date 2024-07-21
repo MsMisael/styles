@@ -1,0 +1,26 @@
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+
+p.goal_widget_v2__contribution_type {
+display:none;
+}
+
+.goal_widget_v2__container .goal_widget_v2__container > div:nth-child(1){
+padding: 3px 5px;
+}
+.goal_widget_v2__container{
+padding: 0 !important;
+justify-content: space-between;
+gap: 0 !important;
+min-height: unset !important; 
+}
+div[role="progressbar"]{
+border-top-right-radius: 0px !important;
+border-top-left-radius: 0px !important;
+border-bottom-left-radius: 4px !important;
+border-bottom-right-radius: 4px !important;
+}
+@media (min-width: 31.25rem) {
+.goal_widget_v2__container .goal_widget_v2__container{
+gap: 0 !important;
+}
+}
